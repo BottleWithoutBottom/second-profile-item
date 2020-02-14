@@ -1,0 +1,1 @@
+var Top=900,Left=1850;$(document).ready(function(){setInterval(function(){$(".events__inner__skimaster").offset({left:Left}),--Left<-150&&(Left=1850)},1),setInterval(function(){$(".events__inner__skimaster").offset({top:Top}),1e3<(Top+=.05)&&(Top=900)},1)});
